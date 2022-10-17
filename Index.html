@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento On Click</title>
+    <link rel="stylesheet" href="estiloEventoOnClick.css">
+</head>
+<body>
+    <main>
+        <!--encabezado -->
+        <main class="encab-principal">
+            <div class="encabezado">
+                <div>
+                    <h1 class="encab-title">Dojonary</h1>
+                </div>
+
+                <div>
+                    <input type="text" name="txtBusqueda" class="txtBusqueda"
+                    placeholder="Search..." >
+                </div>
+
+                <button onclick="changeBtnLogin(this)" class="btnLogin">Login</button>        
+            </div>
+        </main>
+
+        <main class="cuadros">
+            <main class="cuadroIzq">  <!--cuadro de la izquierda con 2 recuadros internos -->
+                    <section class="recuadroIzq11">
+                        <section class="recuadro11izq-p">
+                            <header>
+                                <p class="recuadro11izq-p1">Ninja</p>
+                                <p class="recuadro11izq-p2">noun</p>
+                                <p class="recuadro11izq-p3">plural: ninjas</p>
+                            </header>
+                            <button onclick="btn13likesIzq11(this)" class="btn13likesIzq11">13 likes</button>
+                        </section>
+                        <section class="recuadroIzq11-p">
+                            <p>a practitioner skilled in the</p>
+                            <p><a href="#">Japanese</a> art of a <a href="#">ninjutsu</a></p>
+                        </section>
+                    </section>
+
+                    <section class="recuadroIzq12">
+                        <section>
+                            <header>
+                                <p class="recuadro11izq-p1">Ninja</p>
+                                <p class="recuadro11izq-p2">noun</p>
+                                <p class="recuadro11izq-p3">plural: ninjas</p>
+                            </header>
+                            <button onclick="btn13likesIzq11(this)" class="btn37likesIzq12">37 likes</button>
+                        </section>
+                        <section class="recuadroIzq11-p">
+                            <p>a <a href="#">programmer</a> who breaks</p>
+                            <p>down problems with <a href="#">zen</a>-like</p>
+                            <p>focus</p>
+                        </section>
+                    </section>
+            </main>
+
+            <main> <!--cuadro de la derecha con 1 recuadro -->
+                <main class="cuadroDer">
+                    <section class="recuadroDer1">
+                        <header>
+                            <p>Dojonary is</p>
+                            <p> Defined by <strong>YOU</strong></p>
+                        </header>
+                        <button onclick="removeBtnAdd(this)" class="btnAddDefinition">Add Definition</button>
+                    </section>
+                </main>
+            </main>
+        </main>
+    </main>
+
+    <!--codigo JS para botones-->
+    <script src="EventoOnClick.js"></script>
+</body>
+</html>
